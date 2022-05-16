@@ -6,16 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  length: number = 0;
   password: string = '';
-  includeLetters = false;
-  includeNumbers = false;
-  includeSymbols = false;
+  includeLetters: boolean = false;
+  includeNumbers: boolean = false;
+  includeSymbols: boolean = false;
+
+  onChangeLength(event: any) {
+    const parsedValue = parseInt(event.target.value);
+
+    if (!isNaN(parsedValue)) {
+      this.length = parsedValue;
+    }
+
+    console.log(parsedValue);
+  }
 
   onButtonClick() {
-    console.log('Letters:', this.includeLetters);
-    console.log('Numbers:', this.includeNumbers);
-    console.log('Symbols:', this.includeSymbols);
-
     this.password = 'MY PASSWORD!!!!';
   }
 
