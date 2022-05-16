@@ -1,6 +1,6 @@
 # AngularPasswordGenerator
 
-<img src="./src/assets/images/AppScreenshot.jpg" alt="screenshot" width="400" height="400"/>
+<img src="https://github.com/SirNathanJF/angular-password-generator/blob/main/src/assets/images/AppScreenshot.JPG" alt="screenshot" width="400" height="400"/>
 
 [Live URL](https://angular-password-generator-rust.vercel.app/)
 
