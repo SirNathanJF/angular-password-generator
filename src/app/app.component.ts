@@ -13,7 +13,7 @@ export class AppComponent {
   includeSymbols: boolean = false;
 
   onChangeLength(event: any) {
-    const parsedValue = parseInt(event.target.value);
+    const parsedValue: any = parseInt(event.target.value);
 
     if (!isNaN(parsedValue)) {
       this.length = parsedValue;
