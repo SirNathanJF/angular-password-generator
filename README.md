@@ -1,27 +1,24 @@
 # AngularPasswordGenerator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+<img src="./src/assets/images/AppScreenshot.jpg" alt="screenshot" width="400" height="400"/>
 
-## Development server
+[Live URL](https://angular-password-generator-rust.vercel.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [Questions](#questions)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Overview
 
-## Build
+This was a quick application I built using the Modern Angular Bootcamp Udemy <a href="https://www.udemy.com/course/the-modern-angular-bootcamp" target="_blank">course.<a/> It definitely helped go over the basics of angular and some of its built in syntax.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies
 
-## Running unit tests
+- Angular 13.3
+- Bulma
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Questions
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If you have any questions please feel free to reach out to me at [Github](https://github.com/SirNathanJF) or through email at <nathanflessner1@gmail.com>. If you would like to use my source code please fork the repository. Locally you will need to `npm install` or `yarn install` and use `npm start` or `yarn start`. `ng serve` also works.
