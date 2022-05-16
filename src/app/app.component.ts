@@ -23,7 +23,29 @@ export class AppComponent {
   }
 
   onButtonClick() {
-    this.password = 'MY PASSWORD!!!!';
+    const numbers: string = '1234567890';
+    const letters: string = 'abcdefghijklmnopqrstuvwxyz';
+    const symbols: string = '!@#$%^&*()';
+
+    let validChars: string = '';
+
+    if (this.includeLetters) {
+      validChars += letters;
+    }
+    if (this.includeNumbers) {
+      validChars += numbers;
+    }
+    if (this.includeSymbols) {
+      validChars += symbols;
+    }
+
+    let generatedPassword: string = '';
+
+    for (let i = 0; i < this.length; i++) {
+      const index = Math.floor(Math.random() * validChars.length);
+      generatedPassword += validChars[index];
+    }
+    this.password = generatedPassword;
   }
 
   onChangeUseLetters() {
