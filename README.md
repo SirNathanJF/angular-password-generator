@@ -21,4 +21,4 @@ This was a quick application I built using the Modern Angular Bootcamp Udemy <a 
 
 ## Questions
 
-If you have any questions please feel free to reach out to me at [Github](https://github.com/SirNathanJF) or through email at <nathanflessner1@gmail.com>. If you would like to use my source code please fork the repository. Locally you will need to `npm install` or `yarn install` and use `npm start` or `yarn start`. `ng serve` also works.
+If you have any questions please feel free to reach out to me at [Github](https://github.com/SirNathanJF) or through email at <nathanflessner1@gmail.com>. If you would like to use my source code please fork the repository. Locally you will need to `npm install` or `yarn install` and use `npm start` or `yarn start`. `ng serve` also works. This will be hosted at localhost:4200. This can be changed in the launch.json if required for local conflicts.
